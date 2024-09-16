@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Coin
+  - Enemy
+  - Arrow
+  - FireEnergy
+  - Box
+  - Lower
+  - Upper
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Coin
+  - Enemy
+  - FireEnergy
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 820433747
+    locked: 0
+  - name: FireEnergy
+    uniqueID: 3338265753
+    locked: 0
+  - name: Tilemap
+    uniqueID: 1327824157
+    locked: 0
+  - name: Panel
+    uniqueID: 513142865
+    locked: 0
