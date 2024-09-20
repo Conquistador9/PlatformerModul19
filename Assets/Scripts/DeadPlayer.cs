@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class DeadPlayer : MonoBehaviour
 {
+    [Header("Component")]
     [SerializeField] private GameOverScript _gameOverScript;
 
     private void Update()

@@ -3,9 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class Levels : MonoBehaviour
 {
+    [Header("Components")]
     [SerializeField] private Rigidbody2D _playerRigidbody2D;
-    [SerializeField] private GameObject _nextLevelPanel;
     [SerializeField] private GameOverScript _gameOverScript;
+
+    [Header("PanelObject")]
+    [SerializeField] private GameObject _nextLevelPanel;
 
     public void NextLevel() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
+    [Header("Components")]
     [SerializeField] private CoinText _coinText;
     [SerializeField] private CoinParticle _coinParticle;
 

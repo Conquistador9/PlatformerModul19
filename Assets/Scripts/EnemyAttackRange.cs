@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EnemyAttackRange : MonoBehaviour
 {
+    [Header("Setting")]
     [SerializeField] private float _attackRange = 0.44f;
     private EnemyAnimations _enemyAnim;
     private Transform _player;
@@ -39,7 +40,7 @@ public class EnemyAttackRange : MonoBehaviour
     {
         if(_player != null)
         {
-            _player.GetComponent<Helth>().TakeDamage(_damage);
+            _player.GetComponent<PlayerHelth>().TakeDamage(_damage);
             _canAttack = true;
         }
     }

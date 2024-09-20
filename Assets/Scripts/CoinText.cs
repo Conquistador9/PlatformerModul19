@@ -3,6 +3,7 @@ using TMPro;
 
 public class CoinText : MonoBehaviour
 {
+    [Header("TextMeshProObjects")]
     [SerializeField] private TMP_Text _text;
     [SerializeField] private TMP_Text _collectedCoinsText;
     [SerializeField] private TMP_Text _collectedCoinsTextTwo;

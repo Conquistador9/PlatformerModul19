@@ -1,10 +1,8 @@
 using UnityEngine;
 
-public class Helth : MonoBehaviour
+public class PlayerHelth : MonoBehaviour
 {
-    [SerializeField] private EnemyCollected _enemyCollected;
-
-    [Header("Settings")]
+    [Header("Setting")]
     [SerializeField] private float _maxHelth;
     private float _currentHelth;
 
@@ -19,11 +17,10 @@ public class Helth : MonoBehaviour
         CheckIsAlive();
     }
 
-    public void CheckIsAlive()
+    private void CheckIsAlive()
     {
         if(_currentHelth <= 0)
         {
-            _enemyCollected.AddKill();
             Destroy(gameObject);
         }
     }

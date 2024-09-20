@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EnemyCollected : MonoBehaviour
 {
+    [Header("TextMexProObjects")]
     [SerializeField] private TMP_Text _enemyText;
     [SerializeField] private TMP_Text _enemyTextTwo;
     private int _enemyCount;

@@ -1531,9 +1531,9 @@ GameObject:
   - component: {fileID: 396791036}
   - component: {fileID: 396791040}
   - component: {fileID: 396791039}
-  - component: {fileID: 396791038}
   - component: {fileID: 396791041}
   - component: {fileID: 396791042}
+  - component: {fileID: 396791043}
   m_Layer: 7
   m_Name: Skeleton
   m_TagString: Enemy
@@ -1629,20 +1629,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &396791038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396791031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85cc632675779bd478ff5e476fb4ecf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enemyCollected: {fileID: 1932643992}
-  _maxHelth: 100
 --- !u!50 &396791039
 Rigidbody2D:
   serializedVersion: 4
@@ -1715,6 +1701,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _attackRange: 0.44
+--- !u!114 &396791043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396791031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c0a10d80d13e84aa24ea2d94cc89b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyCollected: {fileID: 1932643992}
+  _maxHealth: 100
 --- !u!4 &407461734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8379311408077158481, guid: f9824cd65be77614792d00477e2f6c61, type: 3}
@@ -3148,7 +3148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85cc632675779bd478ff5e476fb4ecf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyCollected: {fileID: 1932643992}
   _maxHelth: 100
 --- !u!114 &1285345403
 MonoBehaviour:
@@ -3555,8 +3554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerRigidbody2D: {fileID: 1285345401}
-  _nextLevelPanel: {fileID: 1507047272}
   _gameOverScript: {fileID: 305653196}
+  _nextLevelPanel: {fileID: 1507047272}
 --- !u!1 &1437623347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3695,7 +3694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3720932, g: 1, b: 0, a: 0.392}
+  m_Color: {r: 0, g: 0.98080873, b: 1, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
