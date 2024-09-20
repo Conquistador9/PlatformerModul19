@@ -8,10 +8,6 @@ public class Helth : MonoBehaviour
     [SerializeField] private float _maxHelth;
     private float _currentHelth;
 
-    public float CurrentHelth { get => _currentHelth; private set => _currentHelth = value; }
-
-    public float MaxHelth { get => _maxHelth; private set => _maxHelth = value; }
-
     private void Awake()
     {
         _currentHelth = _maxHelth;
