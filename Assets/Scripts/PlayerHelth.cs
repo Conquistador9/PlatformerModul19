@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerHelth : MonoBehaviour
 {
     [Header("Setting")]
-    [SerializeField] private float _maxHelth;
+    [SerializeField] private float _maxHelth = 100f;
     private float _currentHelth;
 
     private void Awake()
