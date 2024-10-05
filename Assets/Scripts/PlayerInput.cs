@@ -36,14 +36,14 @@ public class PlayerInput : MonoBehaviour
         _playerMovement.Movement(horizontal, isJump);
     }
 
-    public void FlipXRight()
+    private void FlipXRight()
     {
         Vector3 rotate = transform.eulerAngles;
         rotate.y = 0;
         transform.rotation = Quaternion.Euler(rotate);
     }
 
-    public void FlipXLeft()
+    private void FlipXLeft()
     {
         Vector3 rotate = transform.eulerAngles;
         rotate.y = 180;

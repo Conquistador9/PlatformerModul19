@@ -6,6 +6,7 @@ public class Levels : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody2D _playerRigidbody2D;
     [SerializeField] private GameOverScript _gameOverScript;
+    [SerializeField] private GameOverScript _healthObject;
 
     [Header("PanelObject")]
     [SerializeField] private GameObject _nextLevelPanel;
@@ -19,6 +20,7 @@ public class Levels : MonoBehaviour
             _playerRigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
             _nextLevelPanel.SetActive(true);
             _gameOverScript.CoinTextObjectDeactive();
+            _healthObject.HealthObjectDeactive();
         }
     }
 }

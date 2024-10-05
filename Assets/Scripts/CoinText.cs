@@ -4,7 +4,7 @@ using TMPro;
 public class CoinText : MonoBehaviour
 {
     [Header("TextMeshProObjects")]
-    [SerializeField] private TMP_Text _text;
+    [SerializeField] private TMP_Text _coinsText;
     [SerializeField] private TMP_Text _collectedCoinsText;
     [SerializeField] private TMP_Text _collectedCoinsTextTwo;
     private int _coins;
@@ -22,14 +22,11 @@ public class CoinText : MonoBehaviour
     public void AddCoin()
     {
         _coins++;
-        _text.text = _coins.ToString();
+        _coinsText.text = _coins.ToString();
         TextTable();
     }
     
-    private void TextTable()
-    {
-        _text.text = ($" монеты: {_coins}");
-    }
+    private void TextTable() => _coinsText.text = ($" монеты: {_coins}");
 
     private void CollectedCoins()
     {

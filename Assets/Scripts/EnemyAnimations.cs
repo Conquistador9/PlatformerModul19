@@ -9,8 +9,5 @@ public class EnemyAnimations : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    public void EnemyAttackAnim()
-    {
-        _animator.SetTrigger("Attack");
-    }
+    public void EnemyAttackAnim() => _animator.SetTrigger("Attack");
 }

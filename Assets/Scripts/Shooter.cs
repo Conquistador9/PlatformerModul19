@@ -41,13 +41,7 @@ public class Shooter : MonoBehaviour
         currentBulletVelocity.GetComponent<Rigidbody2D>().velocity = line * _fireSpeed;
     }
 
-    public void EnergySpriteRight()
-    {
-        _fireEnergy.GetComponent<SpriteRenderer>().flipX = false;
-    }
+    public void EnergySpriteRight() => _fireEnergy.GetComponent<SpriteRenderer>().flipX = false;
 
-    public void EnergySpriteLeft()
-    {
-        _fireEnergy.GetComponent<SpriteRenderer>().flipX = true;
-    }
+    public void EnergySpriteLeft() => _fireEnergy.GetComponent<SpriteRenderer>().flipX = true;
 }

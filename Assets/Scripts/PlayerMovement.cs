@@ -49,10 +49,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void HorizontalMovement(float direction)
-    {
-        _rb.velocity = new Vector2(_curve.Evaluate(direction), _rb.velocity.y);
-    }
+    private void HorizontalMovement(float direction) => _rb.velocity = new Vector2(_curve.Evaluate(direction), _rb.velocity.y);
 
     private void Jump()
     {
