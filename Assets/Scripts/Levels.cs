@@ -1,15 +1,13 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class Levels : MonoBehaviour
 {
-    [Header("Components")]
-    [SerializeField] private Rigidbody2D _playerRigidbody2D;
-    [SerializeField] private GameOverScript _gameOverScript;
-    [SerializeField] private GameOverScript _healthObject;
+    [SerializeField] private UnityEvent _event;
 
-    [Header("PanelObject")]
-    [SerializeField] private GameObject _nextLevelPanel;
+    [Header("Component")]
+    [SerializeField] private Rigidbody2D _playerRigidbody2D;
 
     public void NextLevel() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
@@ -18,9 +16,7 @@ public class Levels : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             _playerRigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
-            _nextLevelPanel.SetActive(true);
-            _gameOverScript.CoinTextObjectDeactive();
-            _healthObject.HealthObjectDeactive();
+            _event?.Invoke();
         }
     }
 }
