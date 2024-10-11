@@ -11,6 +11,8 @@ TagManager:
   - Box
   - Lower
   - Upper
+  - Platform
+  - Bonus
   layers:
   - Default
   - TransparentFX
