@@ -13,6 +13,7 @@ TagManager:
   - Upper
   - Platform
   - Bonus
+  - EnemyRevert
   layers:
   - Default
   - TransparentFX
