@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3ac3afc73d31d284b83a2f6f0a3b7bbc
+guid: 7cfd8de708851c74a8e3dc45f41bf005
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65638492b35e71e47bfd88713e192eef
-      internalID: -1517427971
+      spriteID: bf73de4125dd43c46a486ec29f00b16b
+      internalID: 37514650
       vertices: []
       indices: 
       edges: []
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0831c41841d53124a9c564d94aa9cf41
-      internalID: 995485986
+      spriteID: 3ebac934cf0f6c64b90d7010a94f44c0
+      internalID: 742814414
       vertices: []
       indices: 
       edges: []
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc3b861b8376bae45a4084224e83f53d
-      internalID: -2138912580
+      spriteID: b3abe73886fdee94c9b47af9281901fb
+      internalID: 499348169
       vertices: []
       indices: 
       edges: []
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fff83c6d5a59aa448aefaf164fd3506c
-      internalID: 1321502474
+      spriteID: a70380de565f3a74a990b202e2cd43db
+      internalID: 1483335187
       vertices: []
       indices: 
       edges: []
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c44e08cc9a50a45448c36a29d23b1543
-      internalID: 1259485148
+      spriteID: ab8697fc8dec26f45afbd761378d8152
+      internalID: 1588040872
       vertices: []
       indices: 
       edges: []
@@ -248,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af4e17798ca999b44942afa95dd3ecce
-      internalID: -619223365
+      spriteID: 11a8e97022b0fca47a0e02f3c237c4d7
+      internalID: -812566936
       vertices: []
       indices: 
       edges: []
@@ -269,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9c426b744261e74b8a9ca9893eeb081
-      internalID: 1491122265
+      spriteID: efc430a08c2d61e438f0f40b59493526
+      internalID: 1722734532
       vertices: []
       indices: 
       edges: []
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e37bd4ea00893ee4ea5e8172051c21e3
-      internalID: -614283760
+      spriteID: c94ece24cc94cc8428fb5bc7e94153dd
+      internalID: -453924316
       vertices: []
       indices: 
       edges: []
@@ -311,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f563777896f6ca4e8381f0e345c2b52
-      internalID: 349220188
+      spriteID: 102a36c6f3624014da2a781716a9036e
+      internalID: 1761607578
       vertices: []
       indices: 
       edges: []
@@ -332,8 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20be893f4c4380849a23a996422f9f00
-      internalID: 1167639687
+      spriteID: c1b160972cfa645489bacba62faf65f1
+      internalID: 2120975108
       vertices: []
       indices: 
       edges: []
@@ -349,16 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      _Idle_4: 1259485148
-      _Idle_8: 349220188
-      _Idle_5: -619223365
-      _Idle_0: -1517427971
-      _Idle_2: -2138912580
-      _Idle_9: 1167639687
-      _Idle_1: 995485986
-      _Idle_6: 1491122265
-      _Idle_3: 1321502474
-      _Idle_7: -614283760
+      _Idle_4: 1588040872
+      _Idle_8: 1761607578
+      _Idle_5: -812566936
+      _Idle_0: 37514650
+      _Idle_2: 499348169
+      _Idle_9: 2120975108
+      _Idle_1: 742814414
+      _Idle_6: 1722734532
+      _Idle_3: 1483335187
+      _Idle_7: -453924316
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

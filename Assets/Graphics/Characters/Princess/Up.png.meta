@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c6ebf833c8e79c4fa7464e35ed8a70f
+guid: c3e4e39582288534e807145accee0168
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _Run_0
+      name: Dead_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1
-        width: 29
-        height: 37
+        x: 36
+        y: 0
+        width: 38
+        height: 58
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dd4d4b21754ae94fb7587ecf337f1fe
-      internalID: -1459342945
+      spriteID: 268abad1b43b34245969a46b559f6f3e
+      internalID: 641935005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Run_1
+      name: Dead_1
       rect:
         serializedVersion: 2
         x: 164
         y: 0
-        width: 29
-        height: 37
+        width: 38
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be2ba191f40b614d81dabf79ca76a77
-      internalID: 55582908
+      spriteID: 36af397fcbf773d419afaea214aa4135
+      internalID: 1191417943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Run_2
+      name: Dead_2
       rect:
         serializedVersion: 2
-        x: 289
+        x: 293
         y: 0
-        width: 29
-        height: 37
+        width: 38
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,83 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66cecb6d86d17d4fbd58b98e4e2cdc6
-      internalID: -1973598053
+      spriteID: fc8cf3cd25df0f040b7e998ead3381dd
+      internalID: 1527365651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Run_3
+      name: Dead_3
       rect:
         serializedVersion: 2
-        x: 406
-        y: 1
-        width: 29
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77f99fcba4b8e5d4792eef12ca537afb
-      internalID: -1561955650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Run_4
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 3
-        width: 29
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3875f3a07baa26c4a9a4a34c36a1e500
-      internalID: -1185489887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Run_5
-      rect:
-        serializedVersion: 2
-        x: 641
-        y: 2
-        width: 29
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d358685ec2dddd7478b0e85c6b6f013d
-      internalID: -1673720312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Run_6
-      rect:
-        serializedVersion: 2
-        x: 764
+        x: 422
         y: 0
-        width: 29
-        height: 37
+        width: 38
+        height: 26
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56eb52461a1a23849abb440dc4f07f92
-      internalID: 892706137
+      spriteID: ee4f60e563dee85458ea79207f896230
+      internalID: 1040362646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Run_7
+      name: Dead_4
       rect:
         serializedVersion: 2
-        x: 887
+        x: 550
         y: 0
-        width: 29
-        height: 37
+        width: 54
+        height: 10
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,50 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59026fa2c67337044bea8922905b38f7
-      internalID: -2079127296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Run_8
-      rect:
-        serializedVersion: 2
-        x: 1006
-        y: 1
-        width: 29
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f540b322133dc9f4cb38603b68432cc9
-      internalID: -245526520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Run_9
-      rect:
-        serializedVersion: 2
-        x: 1123
-        y: 3
-        width: 29
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0cd74e42e981e14b9f09432c4a4862b
-      internalID: 500293397
+      spriteID: be14ab0eeb08b2648b256cb582cacffd
+      internalID: -1488973111
       vertices: []
       indices: 
       edges: []
@@ -349,16 +244,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      _Run_9: 500293397
-      _Run_3: -1561955650
-      _Run_6: 892706137
-      _Run_2: -1973598053
-      _Run_4: -1185489887
-      _Run_0: -1459342945
-      _Run_5: -1673720312
-      _Run_7: -2079127296
-      _Run_8: -245526520
-      _Run_1: 55582908
+      Dead_1: 1191417943
+      Dead_3: 1040362646
+      Dead_0: 641935005
+      Dead_4: -1488973111
+      Dead_2: 1527365651
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
