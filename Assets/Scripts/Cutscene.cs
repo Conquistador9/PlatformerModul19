@@ -8,6 +8,7 @@ public class Cutscene : MonoBehaviour
     [SerializeField] private PrincessAnimations _anim;
     [SerializeField] private GameObject _cameraTwo;
     [SerializeField] private GameObject _cutscenePanel;
+    [SerializeField] private GameObject _princessText;
     [SerializeField] private Rigidbody2D _rigidbody;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -16,15 +17,18 @@ public class Cutscene : MonoBehaviour
         {
             _event?.Invoke();
             StartCoroutine(PrincessTimeUp());
-            StartCoroutine(CutsceneEnd());
             StartCoroutine(CameraTwoEnd());
+            StartCoroutine(TextObjectActive());
         }
     }
 
     private IEnumerator CameraTwoEnd()
     {
         yield return new WaitForSeconds(10f);
+        _princessText.SetActive(false);
         _cameraTwo.SetActive(false);
+        _cutscenePanel.SetActive(false);
+        _rigidbody.simulated = true;
     }
 
     private IEnumerator PrincessTimeUp()
@@ -33,10 +37,9 @@ public class Cutscene : MonoBehaviour
         _anim.PrincessUp();
     }
 
-    private IEnumerator CutsceneEnd()
+    private IEnumerator TextObjectActive()
     {
-        yield return new WaitForSeconds(10f);
-        _rigidbody.simulated = true;
-        _cutscenePanel.SetActive(false);
+        yield return new WaitForSeconds(4f);
+        _princessText.SetActive(true);
     }
 }
